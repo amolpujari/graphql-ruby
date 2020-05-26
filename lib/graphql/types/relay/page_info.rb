@@ -17,6 +17,9 @@ module GraphQL
 
         field :end_cursor, String, null: true,
           description: "When paginating forwards, the cursor to continue."
+        
+        field :total_count, String, null: false
+        field :filtered_count, String, null: false
       end
     end
   end
