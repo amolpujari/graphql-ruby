@@ -533,7 +533,7 @@ module GraphQL
         elsif (dynamic_field = introspection_system.dynamic_field(name: field_name))
           dynamic_field
         else
-          nil
+          ::GraphQL::TermsheetCustomField.make(self, field_name, parent_type.name)
         end
       end
     end
