@@ -110,7 +110,7 @@ require "graphql/schema/loader"
 require "graphql/schema/printer"
 require "graphql/introspection"
 
-require "graphql/ermsheet_custom_field"
+require "graphql/termsheet_custom_field"
 require "graphql/analysis_error"
 require "graphql/coercion_error"
 require "graphql/invalid_name_error"
